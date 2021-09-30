@@ -3,7 +3,7 @@
 
 ## Code example:
 ```js
-import Client from "https://deno.land/x/catto_discord;
+import Client from "./src/client/Client.ts";
 
 const client = new Client();
 
