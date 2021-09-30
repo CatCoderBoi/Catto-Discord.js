@@ -1,3 +1,4 @@
+//Exporting payload interface.
 export interface Payload {
     op: number,
     t: string,

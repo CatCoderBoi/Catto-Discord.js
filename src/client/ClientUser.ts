@@ -10,3 +10,4 @@ export default class ClientUser {
     private avatar: string
   ) {}
 }
+

@@ -3,8 +3,6 @@ import { Payload } from "../interfaces/Payloads.ts";
 import ClientUser from "../client/ClientUser.ts";
 
 export default function (client: Client, payload: Payload) {
-//   console.log("Logged In");
-//   console.log(payload);
   const { user } = payload.d;
   client.user = new ClientUser(
     user.username,

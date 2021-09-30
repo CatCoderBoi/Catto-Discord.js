@@ -21,3 +21,4 @@ export default class Client extends EventEmmiter {
     return this.token;
   }
 }
+

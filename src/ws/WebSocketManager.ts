@@ -49,3 +49,4 @@ export default class WebSocketManager {
     return this.socket.send(JSON.stringify(Identify));
   }
 }
+
